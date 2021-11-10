@@ -1,4 +1,36 @@
+import { useState } from "react";
 export const contact = () => {
+
+const [name,setName]= useState(null)
+const [email,setEmail]= useState(null)
+const [msg,setMSG]= useState(null)
+
+const sendEmail=async(e)=>{
+try {
+e.preventDefault()
+  if(name || email || msg){
+alert("all fields are required")
+  }else{
+    const response = await axios.post(`${process.env.api}/send_email_for_contact`, {
+      name,
+      email,
+      msg
+    });
+
+    console.log(response)
+
+
+  }
+  
+} catch (error) {
+  console.log(error)
+}
+
+
+
+}
+
+
   return (
     <div id="contact" class="col-sm-12">
       <div class="row eighth_row">
@@ -16,22 +48,26 @@ export const contact = () => {
             <div class="form-group">
               <input
                 type="text"
+                onChange={(e)=>{setName(e.target.value)}}
                 placeholder="Full Name"
                 class="form-control border btn-outline-danger"
               />
               <input
                 type="email"
+                onChange={(e)=>{setEmail(e.target.value)}}
                 placeholder="Email"
                 class="form-control border btn-outline-danger"
               />
               <textarea
                 class="message btn-outline-danger border"
+                onChange={(e)=>{setMSG(e.target.value)}}
                 placeholder="Message"
               ></textarea>
               <input
                 type="submit"
                 class="btn btn-danger btn-outline-success btn_send_message"
                 value="Send message"
+                onClick={sendEmail}
               />
             </div>
           </form>
