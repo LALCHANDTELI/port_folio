@@ -3,7 +3,7 @@ import { latest_work } from "./latest_work";
 import { boot_wale } from "./projects/boot_wale";
 import { restourants } from "./projects/restourants";
 import { insta_clone } from "./projects/insta_clone";
-import { contact } from "./contact";
+import { Contact } from "./contact";
 import { introduction } from "./introduction";
 import { social_media } from "./social_media";
 import { achievements } from "./achievements";
@@ -14,7 +14,6 @@ import { footer } from "./footer";
 const { useEffect } = require("react");
 
 const App = () => {
-
   useEffect(() => {
     setInterval(() => {
       setTimeout(() => {
@@ -82,12 +81,11 @@ const App = () => {
             </div>
           </div>
 
-          {contact()}
+          {Contact()}
         </div>
       </div>
 
       {footer()}
-
     </>
   );
 };

@@ -1,5 +1,6 @@
 import { useState } from "react";
-export const contact = () => {
+import axios from "axios"
+export const Contact = () => {
 
 const [name,setName]= useState(null)
 const [email,setEmail]= useState(null)
@@ -8,7 +9,7 @@ const [msg,setMSG]= useState(null)
 const sendEmail=async(e)=>{
 try {
 e.preventDefault()
-  if(name || email || msg){
+  if(name===null || email===null || msg===null){
 alert("all fields are required")
   }else{
     const response = await axios.post(`${process.env.api}/send_email_for_contact`, {
@@ -126,3 +127,5 @@ alert("all fields are required")
     </div>
   );
 };
+
+
