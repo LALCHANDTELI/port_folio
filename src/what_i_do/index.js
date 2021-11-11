@@ -11,7 +11,7 @@ export const what_i_do=()=>{
           </div>
           <div class="col-md-4">
             <div class="sub_third">
-              <img src="Images/latest_technologi.jpg" />
+              <img src="images/latest_technologi.jpg" />
               <h4>LATEST TECHNOLOGY</h4>
               <p>
                 I develop sites using latest technologies like REACT,
@@ -23,7 +23,7 @@ export const what_i_do=()=>{
           </div>
           <div class="col-md-4">
             <div class="sub_third">
-              <img src="Images/fully_responsive.jpg" />
+              <img src="images/fully_responsive.jpg" />
               <h4>FULLY RESPONSIVE</h4>
               <p>
                 I design beautiful responsive websites using html5, css3,
@@ -35,7 +35,7 @@ export const what_i_do=()=>{
           </div>
           <div class="col-md-4">
             <div class="sub_third">
-              <img src="Images/clear_coding.jpg" />
+              <img src="images/clear_coding.jpg" />
               <h4>CLEAR CODING</h4>
               <p>
               meaningful variables name, pronounceable names, small functions, Do not leave code in the comments. 
