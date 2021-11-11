@@ -5,7 +5,7 @@ export const introduction=()=> {
         <div id="about" class="container col-sm-12">
             <div class="row second-row">
               <div class="image_3 col-md-3">
-                <img src="Images/my_photo.jpg" />
+                <img src="images/my_photo.jpg" />
               </div>
 
               <div class="col-md-5">
