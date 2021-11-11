@@ -87,7 +87,7 @@ alert("all fields are required")
 
         <div class="col-md-6">
           <div class="contact">
-            <img src="Images/my_photo.jpg" class="contact_image" />
+            <img src="images/my_photo.jpg" class="contact_image" />
             <div class="contact_details">
               <h3>lal chand teli</h3>
               <a
