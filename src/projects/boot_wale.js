@@ -17,8 +17,8 @@ export const boot_wale = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              onClick={() => window.open("Images/boot_wale/1login.png")}
-              src="Images/boot_wale/1login.png"
+              onClick={() => window.open("images/boot_wale/1login.png")}
+              src="images/boot_wale/1login.png"
               alt="Los Angeles"
               height="200"
             />
@@ -26,49 +26,49 @@ export const boot_wale = () => {
           <div class="carousel-item">
             <img
               onClick={() =>
-                window.open("Images/boot_wale/2forgotpassword.png")
+                window.open("images/boot_wale/2forgotpassword.png")
               }
-              src="Images/boot_wale/2forgotpassword.png"
+              src="images/boot_wale/2forgotpassword.png"
               alt="Chicago"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/boot_wale/3admin.png")}
-              src="Images/boot_wale/3admin.png"
+              onClick={() => window.open("images/boot_wale/3admin.png")}
+              src="images/boot_wale/3admin.png"
               alt="New York"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/boot_wale/4collections.png")}
-              src="Images/boot_wale/4collections.png"
+              onClick={() => window.open("images/boot_wale/4collections.png")}
+              src="images/boot_wale/4collections.png"
               alt="New York"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/boot_wale/5update.png")}
-              src="Images/boot_wale/5update.png"
+              onClick={() => window.open("images/boot_wale/5update.png")}
+              src="images/boot_wale/5update.png"
               alt="New York"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/boot_wale/6cart.png")}
-              src="Images/boot_wale/6cart.png"
+              onClick={() => window.open("images/boot_wale/6cart.png")}
+              src="images/boot_wale/6cart.png"
               alt="New York"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/boot_wale/7filtter.png")}
-              src="Images/boot_wale/7filtter.png"
+              onClick={() => window.open("images/boot_wale/7filtter.png")}
+              src="images/boot_wale/7filtter.png"
               alt="New York"
               height="200"
             />
