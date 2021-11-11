@@ -14,16 +14,16 @@ export const rooms_for_rant = () => {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                onClick={() => window.open("Images/insta_clone/1signup.png")}
-                src="Images/insta_clone/1signup.png"
+                onClick={() => window.open("images/insta_clone/1signup.png")}
+                src="images/insta_clone/1signup.png"
                 alt="Los Angeles"
                 height="200"
               />
             </div>
             <div class="carousel-item">
               <img
-                onClick={() => window.open("Images/insta_clone/2login.png")}
-                src="Images/insta_clone/2login.png"
+                onClick={() => window.open("images/insta_clone/2login.png")}
+                src="images/insta_clone/2login.png"
                 alt="Chicago"
                 height="200"
               />
@@ -31,33 +31,33 @@ export const rooms_for_rant = () => {
             <div class="carousel-item">
               <img
                 onClick={() =>
-                  window.open("Images/insta_clone/3forgotpassword.png")
+                  window.open("images/insta_clone/3forgotpassword.png")
                 }
-                src="Images/insta_clone/3forgotpassword.png"
+                src="images/insta_clone/3forgotpassword.png"
                 alt="New York"
                 height="200"
               />
             </div>
             <div class="carousel-item">
               <img
-                onClick={() => window.open("Images/insta_clone/4home.png")}
-                src="Images/insta_clone/4home.png"
+                onClick={() => window.open("images/insta_clone/4home.png")}
+                src="images/insta_clone/4home.png"
                 alt="New York"
                 height="200"
               />
             </div>
             <div class="carousel-item">
               <img
-                onClick={() => window.open("Images/insta_clone/5profile.png")}
-                src="Images/insta_clone/5profile.png"
+                onClick={() => window.open("images/insta_clone/5profile.png")}
+                src="images/insta_clone/5profile.png"
                 alt="New York"
                 height="200"
               />
             </div>
             <div class="carousel-item">
               <img
-                onClick={() => window.open("Images/insta_clone/6following.png")}
-                src="Images/insta_clone/6following.png"
+                onClick={() => window.open("images/insta_clone/6following.png")}
+                src="images/insta_clone/6following.png"
                 alt="New York"
                 height="200"
               />
