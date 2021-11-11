@@ -3,7 +3,7 @@ export const profile=()=>{
         <div class="col-sm-12 parent_div">
                 <div class="child_div">
                   <div class="profile-photo">
-                    <img src="Images/my_photo.jpg" />
+                    <img src="images/my_photo.jpg" />
                   </div>
 
                   <div class="social-accounts">
