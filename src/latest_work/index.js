@@ -103,27 +103,30 @@ export const latest_work=()=>{
             </div>
           </div>
 
-          <div class="col-md-6">
-            <h1>rooms for rant develop in php</h1>
-            <ul>
-              <li>fghjkjhgxfgg:sfdgfhgjhkjhg</li>
-              <li>fghjkjhgxfgg:sfdgfhgjhkjhg</li>
-              <li>fghjkjhgxfgg:sfdgfhgjhkjhg</li>
-              <li>fghjkjhgxfgg:sfdgfhgjhkjhg</li>
-              <li>fghjkjhgxfgg:sfdgfhgjhkjhg</li>
-              <li>fghjkjhgxfgg:sfdgfhgjhkjhg</li>
-            </ul>
+          <div class="col-md-6 mt-3">
+            <h1>INSTAGRAM CLONE</h1>
 
-            <p>
-              fdgfhgjhkjghfdfsagfhjh gfddasfdgfhhgfsdasfdgf
-              hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf
-              gfddasfdgfhhgfsdasfdgf hjghfgdfsdgfhgjhkjhgfsd
-              hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf
-              hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf
-              gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf
-              hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf
-              gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf
+            <p className="mb-5">
+            It is a clone of Instagram with which we can share our photos by adding many cool functions,
+Like signup and login with google, forgot password by email otp,
+Change profile photo, share photo, follow and follow, search users,
+In which new technologies have been used like mongo, react, express node, api, you can visit insta_clone here
             </p>
+
+
+          
+              <h6>FRONT END</h6>
+              <p>react</p>
+
+              <h6>BACK END</h6>
+              <p>express</p>
+
+              <h6>DATABASE</h6>
+              <p>mongo db</p>
+
+              
+
+            
           </div>
         </div>
       </div>

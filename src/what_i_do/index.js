@@ -16,13 +16,8 @@ export const what_i_do=()=>{
               <p>
                 I develop sites using latest technologies like REACT,
                 EXPRESS, MongoDB, NODE, FIREBASE, and many latest popular
-                NPMs...
-                <span class="more_text hidden_class">
-                  mainly I focus on security and quick responses.
-                </span>
-                <a onclick="SeeMore()" class="btnSeeMore">
-                  Read more
-                </a>
+                NPMs, mainly I focus on security and quick responses.
+                
               </p>
             </div>
           </div>
@@ -33,18 +28,8 @@ export const what_i_do=()=>{
               <p>
                 I design beautiful responsive websites using html5, css3,
                 modern javascript, bootstrap, mediaquery and node package
-                managers...
-                <span class="more_text hidden_class">
-                  hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf
-                  gfddasfdgfhhgfsdasfdgf hjghfgdfsdgfhgjhkjhgfsd
-                  hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf
-                  gfddasfdgfhhgfsdasfdgf hjghfgdfsdgfhgjhkjhgfsd
-                  hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf
-                  gfddasfdgfhhgfsdasfdgf
-                </span>
-                <a onclick="SeeMore()" class="btnSeeMore">
-                  Read more
-                </a>
+                managers. that makes web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size.
+               
               </p>
             </div>
           </div>
@@ -53,20 +38,10 @@ export const what_i_do=()=>{
               <img src="Images/clear_coding.jpg" />
               <h4>CLEAR CODING</h4>
               <p>
-                dsfdgfhjhkjhjgfdsfasffhkljkhhfdsfadsffhhkjfhdsf
-                dgfghkjhgfsdfdfhkgfjhgwererdtyfukrew
-                qwreytkylgfkhffsdfdgfhkjht
-                <span class="more_text hidden_class">
-                  hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf
-                  gfddasfdgfhhgfsdasfdgf hjghfgdfsdgfhgjhkjhgfsd
-                  hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf
-                  gfddasfdgfhhgfsdasfdgf hjghfgdfsdgfhgjhkjhgfsd
-                  hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf
-                  gfddasfdgfhhgfsdasfdgf
-                </span>
-                <a onclick="SeeMore()" class="btnSeeMore">
-                  Read more
-                </a>
+              meaningful variables name, pronounceable names, small functions, Do not leave code in the comments. 
+This one is serious because others who see the code will be afraid to delete 
+it because they do not know if it is there for a reason.
+               
               </p>
             </div>
           </div>

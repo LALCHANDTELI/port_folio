@@ -1,6 +1,6 @@
 export const insta_clone = () => {
   return (
-    <div class="col-md-4">
+    <div class="col-md-4 mt-5 mb-5">
       <div id="myCarousel3" class="carousel slide mb-2" data-ride="carousel">
         <ul class="carousel-indicators">
           <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
@@ -72,18 +72,11 @@ export const insta_clone = () => {
         </a>
       </div>
       <div class="projects_details">
-        <h3>Restaurant Management</h3>
+        <h3>INSTA CLONE</h3>
         <p>
           fdgfhgjhkjghfdfsagfhjh gfddasfdgfhhgfsdasfdgf hjghfgdfsdgfhgjhkjhgfsd
           hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf...
-          <span class="more_text hidden_class">
-            I built a " Restaurant Management " app as a final project of my 6
-            months full stack web developer Internship at Edureka, using REACT,
-            EXPRESS, MongoDB, NODE.
-          </span>
-          <a onclick="SeeMore()" class="btnSeeMore">
-            see more
-          </a>
+         
         </p>
       </div>
     </div>

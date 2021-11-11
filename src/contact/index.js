@@ -2,14 +2,14 @@ import { useState } from "react";
 import axios from "axios"
 export const Contact = () => {
 
-const [name,setName]= useState(null)
-const [email,setEmail]= useState(null)
-const [msg,setMSG]= useState(null)
+const [name,setName]= useState("")
+const [email,setEmail]= useState("")
+const [msg,setMSG]= useState("")
 
 const sendEmail=async(e)=>{
 try {
 e.preventDefault()
-  if(name===null || email===null || msg===null){
+  if(name==="" || email==="" || msg===""){
 alert("all fields are required")
   }else{
     const response = await axios.post(`${process.env.api}/send_email_for_contact`, {
@@ -18,13 +18,21 @@ alert("all fields are required")
       msg
     });
 
-    console.log(response)
+    if(response.data==="sent"){
+      alert("The message has been sent to Lal Chand, he will contact you soon")
+      setName("")
+      setEmail("")
+      setMSG("")
+    }else{
+      alert("something going wrong please try again")
+    }
 
 
   }
   
 } catch (error) {
   console.log(error)
+  alert(error.message)
 }
 
 
@@ -52,17 +60,20 @@ alert("all fields are required")
                 onChange={(e)=>{setName(e.target.value)}}
                 placeholder="Full Name"
                 class="form-control border btn-outline-danger"
+                value={name}
               />
               <input
                 type="email"
                 onChange={(e)=>{setEmail(e.target.value)}}
                 placeholder="Email"
+                value={email}
                 class="form-control border btn-outline-danger"
               />
               <textarea
                 class="message btn-outline-danger border"
                 onChange={(e)=>{setMSG(e.target.value)}}
                 placeholder="Message"
+                value={msg}
               ></textarea>
               <input
                 type="submit"
@@ -108,17 +119,11 @@ alert("all fields are required")
                 target="_blank"
                 download="resume of lal chand teli"
               >
-                <p
-                  class="border btn btn-success btn-outline-danger"
-                  href="#"
-                  onClick={() => {
-                    window.open(
-                      "https://res.cloudinary.com/dcxhqv5lu/raw/upload/v1636556270/Resume3_bn2blo.docx"
-                    );
-                  }}
-                >
+                <a
+                  class="border btn_download btn btn-success btn-outline-danger"
+                  href="https://res.cloudinary.com/dcxhqv5lu/raw/upload/v1636556270/Resume3_bn2blo.docx">
                  My Resume
-                </p>
+                </a>
               </a>
             </div>
           </div>

@@ -609,3 +609,41 @@ bold {
 img{
   cursor: pointer;
 }
+
+.row_tech_and_soft{
+  background-color:#1abc9c;
+  padding: 20px;
+}
+
+.tech_and_soft{
+  border-style: outset !important;
+border-width: 10px !important;
+border-radius: 20px;
+max-width: 70% !important;
+}
+
+
+
+.btn_tech{
+border-style: outset !important;
+border-width: 10px !important;
+}
+
+.btn_soft{
+border-style: outset !important;
+border-width: 10px !important;
+}
+
+
+
+
+.hidden_class{
+  display: none;
+}
+
+.btn_download{
+  margin: auto !important;
+  width: 50% !important;
+}
+
+

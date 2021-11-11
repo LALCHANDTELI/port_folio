@@ -15,16 +15,17 @@ export const introduction=()=> {
                     hello, there I am a full time WEB DEVELOPER,
                     <br />
                     I'm pursuing B Tech from SANGAM UNIVERSITY in the computer
-                    science department. Right now, I am in the seventh semester.
+                    science. Right now, I am in the seventh semester.
                     I have three years of experience in web development. I
-                    already developed many websites for example - SHOPPING SITE,
+                    already developed many websites like - SHOPPING SITE, RESTAURANT MANAGEMENT,
                     INSTAGRAM CLONE, FORT-FOLIO SITE.
                     <br />
                     <br />
+                    I AM SPECIALIZED IN MERN STACK WEB DEVELOPER.
                     I can build responsive single-page applications like zomato,
                     oyo, make my trip, live chat, shopping site using the latest
                     technology REACT, EXPRESS, MongoDB, NODE, ADVANCE
-                    JAVASCRIPT, BOOTSTRAP a lot of technologies.
+                    JAVASCRIPT, BOOTSTRAP, PHP, SQL, PYTHON a lot of technologies.
                     <br />I got many certificates in web development from
                     different platforms, and I also have 6 months of virtual
                     Internship experience with 'EDUREKA' and I was the super
@@ -70,7 +71,7 @@ export const introduction=()=> {
                   <span class="class">College Joining</span>
                   <span>
                     <p>
-                      I'm pursuing B Tech from 'SANGAM UNIVERSITY' in the CS{" "}
+                      I'm pursuing B Tech from 'SANGAM UNIVERSITY'<br/>(currently in seventh semester)
                     </p>
                   </span>
                 </div>
@@ -81,6 +82,7 @@ export const introduction=()=> {
                   <i class="fas fa-arrow-circle-down"></i>check my skills
                 </label>
               </div>
+              
               
             </div>
 

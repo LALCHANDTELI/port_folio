@@ -2,7 +2,7 @@ import React from "react";
 
 export const boot_wale = () => {
   return (
-    <div class="col-md-4">
+    <div class="col-md-4 mt-5 mb-5">
       <div id="myCarousel1" class="carousel slide mb-2" data-ride="carousel">
         <ul class="carousel-indicators">
           <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
@@ -83,20 +83,11 @@ export const boot_wale = () => {
         </a>
       </div>
       <div class="projects_details">
-        <h3>rooms for rant </h3>
+        <h3>BOOT WALE</h3>
         <p>
           fdgfhgjhkjghfdfsagfhjh gfddasfdgfhhgfsdasfdgf hjghfgdfsdgfhgjhkjhgfsd
           hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf...
-          <span class="more_text hidden_class">
-            hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf
-            hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf
-            gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf
-            hjghfgdfsdgfhgjhkjhgfsd hfdsfdhfjkjhfdgsfadgf
-            gfddasfdgfhhgfsdasfdgffjkjhfdgsfadgf gfddasfdgfhhgfsdasfdgf
-          </span>
-          <a onclick="SeeMore()" class="btnSeeMore">
-            see more
-          </a>
+          
         </p>
       </div>
     </div>

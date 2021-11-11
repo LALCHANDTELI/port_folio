@@ -11,6 +11,8 @@ import { navbar } from "./navbar";
 import { profile } from "./profile";
 import { what_i_do } from "./what_i_do";
 import { footer } from "./footer";
+import { rooms_for_rant } from "./projects/rooms_for_rant";
+import { Tech_and_soft } from "./tech_and_soft";
 const { useEffect } = require("react");
 
 const App = () => {
@@ -78,8 +80,15 @@ const App = () => {
               {restourants()}
 
               {insta_clone()}
+
+{rooms_for_rant()}
+
+
             </div>
           </div>
+
+          {Tech_and_soft()}
+        
 
           {Contact()}
         </div>
