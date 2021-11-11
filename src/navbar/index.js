@@ -4,7 +4,7 @@ export const navbar=()=>{
                 <div class="container">
                   <a href="#" class="profile-nav-photo">
                   
-                    <img src="Images/my_photo.jpg" />
+                    <img src="images/my_photo.jpg" />
                     <span class="name">Lal Chand Teli</span>
                   </a>
 
