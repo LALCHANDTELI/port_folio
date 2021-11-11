@@ -14,48 +14,48 @@ export const restourants = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              onClick={() => window.open("Images/restourant/1home.png")}
-              src="Images/restourant/1home.png"
+              onClick={() => window.open("images/restourant/1home.png")}
+              src="images/restourant/1home.png"
               alt="Los Angeles"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/restourant/2search.png")}
-              src="Images/restourant/2search.png"
+              onClick={() => window.open("images/restourant/2search.png")}
+              src="images/restourant/2search.png"
               alt="Chicago"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/restourant/3list.png")}
-              src="Images/restourant/3list.png"
+              onClick={() => window.open("images/restourant/3list.png")}
+              src="images/restourant/3list.png"
               alt="New York"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/restourant/4restourant.png")}
-              src="Images/restourant/4restourant.png"
+              onClick={() => window.open("images/restourant/4restourant.png")}
+              src="images/restourant/4restourant.png"
               alt="New York"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/restourant/5order.png")}
-              src="Images/restourant/5order.png"
+              onClick={() => window.open("images/restourant/5order.png")}
+              src="images/restourant/5order.png"
               alt="New York"
               height="200"
             />
           </div>
           <div class="carousel-item">
             <img
-              onClick={() => window.open("Images/restourant/6orderlist.png")}
-              src="Images/restourant/6orderlist.png"
+              onClick={() => window.open("images/restourant/6orderlist.png")}
+              src="images/restourant/6orderlist.png"
               alt="New York"
               height="200"
             />
