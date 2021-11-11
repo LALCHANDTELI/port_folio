@@ -12,7 +12,7 @@ e.preventDefault()
   if(name==="" || email==="" || msg===""){
 alert("all fields are required")
   }else{
-    const response = await axios.post(`https://apiinstaclone.herokuapp.com/send_email_for_contact`, {
+    const response = await axios.post(`${process.env.api}/send_email_for_contact`, {
       name,
       email,
       msg
