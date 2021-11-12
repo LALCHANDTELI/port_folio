@@ -13,6 +13,7 @@ import { what_i_do } from "./what_i_do";
 import { footer } from "./footer";
 import { rooms_for_rant } from "./projects/rooms_for_rant";
 import { Tech_and_soft } from "./tech_and_soft";
+import { port_polio } from "./projects/port_polio";
 const { useEffect } = require("react");
 
 const App = () => {
@@ -81,14 +82,13 @@ const App = () => {
 
               {insta_clone()}
 
-{rooms_for_rant()}
+              {rooms_for_rant()}
 
-
+              {port_polio()}
             </div>
           </div>
 
           {Tech_and_soft()}
-        
 
           {Contact()}
         </div>
