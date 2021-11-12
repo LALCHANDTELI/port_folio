@@ -104,13 +104,13 @@ export const latest_work=()=>{
           </div>
 
           <div class="col-md-6 mt-3">
-            <h1>INSTAGRAM CLONE</h1>
+          <a className="text-light" href="https://instagram2o.herokuapp.com" target="_blank"> <h1>INSTAGRAM CLONE</h1></a>
 
             <p className="mb-5">
             It is a clone of Instagram with which we can share our photos by adding many cool functions,
 Like signup and login with google, forgot password by email otp,
 Change profile photo, share photo, follow and follow, search users,
-In which new technologies have been used like mongo, react, express node, api, you can visit insta_clone here
+In which new technologies have been used like mongo, react, express node, api, you can visit <a target="_blank" href="https://instagram2o.herokuapp.com">insta_clone</a> here
             </p>
 
 
