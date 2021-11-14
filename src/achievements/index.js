@@ -3,7 +3,7 @@ export const achievements = () => {
     <div id="achivements" class="col-sm-12">
       <div class="row fivth_row">
         <div class="col-md-12">
-          <h1>Achievements</h1>
+          <h3>Achievements</h3>
           <h5>
             all achievements & certificates are achieved by the registered
             organizations
