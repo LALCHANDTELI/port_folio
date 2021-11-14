@@ -122,7 +122,7 @@ alert("all fields are required")
                 <a
                   class="border btn_download btn btn-success btn-outline-danger"
                   href="https://res.cloudinary.com/dcxhqv5lu/raw/upload/v1636556270/Resume3_bn2blo.docx">
-                 My Resume
+                Resume
                 </a>
               </a>
             </div>
