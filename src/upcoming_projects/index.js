@@ -10,9 +10,7 @@ document.querySelector(".upcoming_project_list_box").classList.toggle("hidden_cl
     return(
        <>
        <button onClick={toggle} className="p-1 upcoming_project">Under Construction Projects<br/></button>
-            <div className="btn_upcoming_project">
-            <i onClick={toggle} class="fas fa-2x btn_arrow  fa-arrow-circle-down"></i>
-            </div>
+          
             
             <div className="hidden_class upcoming_project_list_box   text-light">
             
