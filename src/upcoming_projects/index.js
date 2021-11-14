@@ -14,7 +14,7 @@ document.querySelector(".upcoming_project_list_box").classList.toggle("hidden_cl
             
             <div className="hidden_class upcoming_project_list_box   text-light">
             
-            <div class="row p-3 container  rounded upcoming_project_list">
+            <div class="row p-3 container upcoming_project_list">
     <div class="col-md-3 p-1 border">Resume Builder</div>
     <div class="col-md-3 p-1 border">Vehicle Tracker</div>
   </div>
