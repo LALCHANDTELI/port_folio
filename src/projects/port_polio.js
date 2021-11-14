@@ -87,7 +87,7 @@ export const port_polio = () => {
       </div>
       <div class="projects_details">
         <a className="text-light" href="/">
-          <h3>PORT POLIO</h3>
+          <h5>PORT POLIO</h5>
         </a>
         <p>
           Here all the information about me is available like about my studies,
