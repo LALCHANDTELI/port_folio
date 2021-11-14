@@ -25,7 +25,7 @@ export const profile=()=>{
                         </a>
                       </li>
                     </ul>
-                    <h1>Lal Chand Teli</h1>
+                    <h3>Lal Chand Teli</h3>
                     <ul>
                       <li>
                         <a
