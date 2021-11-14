@@ -72,7 +72,7 @@ export const insta_clone = () => {
         </a>
       </div>
       <div class="projects_details">
-       <a className="text-light" href="https://instagram2o.herokuapp.com" target="_blank"> <h3>INSTA CLONE</h3></a>
+       <a className="text-light" href="https://instagram2o.herokuapp.com" target="_blank"> <h5>INSTA CLONE</h5></a>
         <p>
         It is a clone of Instagram with which we can share our photos,
 using latest functionalities G-login, OTP verifications,following and followers, search users by username.
