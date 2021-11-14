@@ -24,8 +24,8 @@ nav {
 }
 
 .profile-photo img {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 50%;
 }
@@ -41,8 +41,7 @@ nav {
   display: inline;
 }
 
-.social-accounts h1 {
-  font-size: 50px;
+.social-accounts h3 {
   font-family: "Open Sans Condensed", sans-serif;
   display: inline;
   color: white;
@@ -74,8 +73,6 @@ nav {
   padding-top: 100px;
 }
 
-
-
 .third-row {
   background-color: #1abc9c;
   height: fit-content;
@@ -86,7 +83,7 @@ nav {
   place-items: center;
 }
 
-.social-accounts h1 {
+.social-accounts h3 {
   animation: name alternate 3s;
 }
 
@@ -180,8 +177,6 @@ a.active {
   color: white;
 }
 
-
-
 .second-row ul li {
   list-style: none;
   display: grid;
@@ -193,8 +188,6 @@ a.active {
   padding: 5px;
   margin-bottom: 10px;
 }
-
-
 
 .academic_box p {
   text-align: center;
@@ -346,7 +339,6 @@ a.active {
 
 .fourth_row {
   background-color: #283848;
-  margin: auto;
   text-align: center;
   color: white;
   padding-top: 30px;
@@ -528,8 +520,8 @@ bold {
 }
 
 .contact_image {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border: 5px solid white;
   border-radius: 50%;
   border-style: outset;
@@ -544,8 +536,6 @@ bold {
 .contact {
   border: 5px solid #0a0729;
   border-style: outset;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .contact .btn {
@@ -558,7 +548,6 @@ bold {
 .contact_details {
   border-radius: 30px;
   background-color: transparent;
-  /* border-style: outset; */
   color: rgb(255, 255, 255);
   padding-top: 20px;
   padding-bottom: 15px;
@@ -606,44 +595,121 @@ bold {
   width: 100%;
 }
 
-img{
+img {
   cursor: pointer;
 }
 
-.row_tech_and_soft{
-  background-color:#1abc9c;
+.row_tech_and_soft {
+  background-color: #1abc9c;
   padding: 20px;
 }
 
-.tech_and_soft{
+.tech_and_soft {
   border-style: outset !important;
-border-width: 10px !important;
-border-radius: 20px;
-max-width: 70% !important;
+  border-width: 10px !important;
+  border-radius: 20px;
+  max-width: 70% !important;
 }
 
-
-
-.btn_tech{
-border-style: outset !important;
-border-width: 10px !important;
+.btn_tech {
+  border-style: outset !important;
+  border-width: 10px !important;
 }
 
-.btn_soft{
-border-style: outset !important;
-border-width: 10px !important;
+.btn_soft {
+  border-style: outset !important;
+  border-width: 10px !important;
 }
 
-
-
-
-.hidden_class{
+.hidden_class {
   display: none;
 }
 
-.btn_download{
+.btn_download {
   margin: auto !important;
   width: 50% !important;
 }
+
+@media screen and (max-width: 767px) {
+  .second-row {
+    margin: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .fivth_row img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-item img {
+    height: 200px;
+  }
+
+  .fourth_row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 316px) {
+  .social-accounts h3 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .fivth_row img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .seventh_row .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.upcoming_project{
+  margin: auto;
+  width: 100%;
+  background-color: #0d263f;
+  color:white;
+border: none;
+}
+
+
+.btn_upcoming_project{
+  background-color: #1abc9c;
+  width: 100%;
+  color: white;
+}
+
+.btn_arrow{
+margin-left: 49%;
+cursor: pointer;
+color: #0d263f;
+}
+
+.upcoming_project_list{
+  background-color: #0d263f;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.upcoming_project_list .col-md-3{
+  margin: auto;
+}
+
+.upcoming_project_list_box{
+  width: 100%;
+  background-color: #1abc9c;
+}
+
+
 
 
