@@ -121,7 +121,7 @@ alert("all fields are required")
               >
                 <a
                   class="border btn_download btn btn-success btn-outline-danger"
-                  href="https://res.cloudinary.com/dcxhqv5lu/raw/upload/v1636556270/Resume3_bn2blo.docx">
+                  href="https://res.cloudinary.com/dcxhqv5lu/raw/upload/v1636897574/LALCHAND_s_Resume_qls08q.docx">
                 Resume
                 </a>
               </a>
