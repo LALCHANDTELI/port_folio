@@ -70,7 +70,7 @@ export const restourants = () => {
         </a>
       </div>
       <div class="projects_details">
-       <a className="text-light" href="https://awesomerestaurant.herokuapp.com" target="_blank"> <h3>Restaurant Management</h3></a>
+       <a className="text-light" href="https://awesomerestaurant.herokuapp.com" target="_blank"> <h5>Restaurant Management</h5></a>
         <p>
         it's a single page application for restaurant management for different cities, using latest technologies
         like node, react, express, mongo, api. you can visit <a className="text-warning" href="https://awesomerestaurant.herokuapp.com" target="_blank">here</a>
