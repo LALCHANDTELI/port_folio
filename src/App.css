@@ -682,17 +682,7 @@ border: none;
 }
 
 
-.btn_upcoming_project{
-  background-color: #1abc9c;
-  width: 100%;
-  color: white;
-}
 
-.btn_arrow{
-margin-left: 49%;
-cursor: pointer;
-color: #0d263f;
-}
 
 .upcoming_project_list{
   background-color: #0d263f;
