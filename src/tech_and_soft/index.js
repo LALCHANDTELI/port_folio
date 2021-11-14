@@ -18,9 +18,12 @@ const showSoft=()=>{
         <button onClick={showTech} className="bg-warning mr-1 btn_tech  p-2 rounded-circle ">
           Tech
         </button>
+       
         <button onClick={showSoft} className="bg-danger ml-1 p-2 btn_soft  rounded-circle">
           Soft
-        </button>
+        </button> 
+      
+       
       </div>
 
       <div className="col-md-12 bg-warning tech tech_and_soft hidden_class  mx-auto">
