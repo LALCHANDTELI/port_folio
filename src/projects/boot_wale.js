@@ -83,7 +83,7 @@ export const boot_wale = () => {
         </a>
       </div>
       <div class="projects_details">
-       <a href="https://bootwale.herokuapp.com" target="_blank" className="text-light"> <h3>BOOT WALE</h3></a>
+       <a href="https://bootwale.herokuapp.com" target="_blank" className="text-light"> <h5>BOOT WALE</h5></a>
         <p>
         it’s a single-category product shopping site for different varieties of shoes. 
         with all functionalities using REACT, EXPRESS, MongoDB, NODE. visit here for more details PRESENTATION
