@@ -14,6 +14,7 @@ import { footer } from "./footer";
 import { rooms_for_rant } from "./projects/rooms_for_rant";
 import { Tech_and_soft } from "./tech_and_soft";
 import { port_polio } from "./projects/port_polio";
+import { upcoming_projects } from "./upcoming_projects";
 const { useEffect } = require("react");
 
 const App = () => {
@@ -87,6 +88,11 @@ const App = () => {
               {port_polio()}
             </div>
           </div>
+
+         
+            {upcoming_projects()}
+            
+            
 
           {Tech_and_soft()}
 
