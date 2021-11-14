@@ -72,7 +72,7 @@ export const rooms_for_rant = () => {
           </a>
         </div>
         <div class="projects_details">
-         <a className="text-light" href="https://privaterepo.000webhostapp.com/r4r.php" target="_blank"> <h3>ROOMS FOR RENT</h3></a>
+         <a className="text-light" href="https://privaterepo.000webhostapp.com/r4r.php" target="_blank"> <h5>ROOMS FOR RENT</h5></a>
           <p>
           This Site For Those Peoples That Are Away From Home And Parents During Studying and Work.
 And They Need Immediately Secure Clean And Silence Environment Room For Rent.
