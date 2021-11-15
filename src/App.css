@@ -93,12 +93,12 @@ nav {
   }
 
   50% {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     color: #34495e;
   }
 
   75% {
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 }
 
