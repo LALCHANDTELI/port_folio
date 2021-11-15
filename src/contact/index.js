@@ -50,10 +50,10 @@ alert("all fields are required")
 
         <div class="col-md-6">
           <form>
-            <h3>
+            <h5>
               <i class="fa fa-location-arrow mr-3 fa-lg"></i>Leave a message
               <i class="fa fa-location-arrow ml-3 fa-lg"></i>
-            </h3>
+            </h5>
             <div class="form-group">
               <input
                 type="text"
