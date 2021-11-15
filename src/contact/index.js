@@ -119,9 +119,12 @@ alert("all fields are required")
                 target="_blank"
                 download="resume of lal chand teli"
               >
-                <a
+               <a
                   class="border btn_download btn btn-success btn-outline-danger"
-                  href="https://res.cloudinary.com/dcxhqv5lu/raw/upload/v1636897574/LALCHAND_s_Resume_qls08q.docx">
+                  href="https://drive.google.com/file/d/1etl_DR4keZY-7NdDsnecKhlIaE3X0CjY/view?usp=sharing" 
+                  target="_blank" 
+                  title="Download Updated Resume"
+                >
                 Resume
                 </a>
               </a>
