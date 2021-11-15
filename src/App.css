@@ -701,5 +701,21 @@ border: none;
 }
 
 
+@media screen and (max-width:400px) {
+  .eighth_row form .fa-location-arrow{
+margin-top: 15px;
+margin-bottom: 15px;
+  }
+
+  .eighth_row .col-md-6 form{
+padding: 5px;
+  }
+
+  .eighth_row .col-md-6{
+    padding: 5px;
+  }
+}
+
+
 
 
