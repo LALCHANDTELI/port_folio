@@ -22,11 +22,7 @@ export const footer = () => {
      <i class="fab fa-github fa-lg"></i>
           </a>
         </li>
-    
-    
-    
-   
-        <li>
+         <li>
           <a href="https://wa.me/+918769280061" target="_blank">
             <i class="fab fa-whatsapp fa-lg"></i>
           </a>
