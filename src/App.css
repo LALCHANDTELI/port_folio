@@ -26,14 +26,14 @@ nav {
 .profile-photo img {
   height: 200px;
   width: 200px;
-  border: 3px solid rgb(255, 255, 255);
+   border: 3px solid green;
   border-radius: 50%;
 }
 
 .profile-nav-photo img {
   height: 60px;
   width: 60px;
-  border: 5px solid white;
+  border: 5px solid green;
   border-radius: 50%;
 }
 
@@ -522,7 +522,7 @@ bold {
 .contact_image {
   width: 100px;
   height: 100px;
-  border: 5px solid white;
+  border: 5px solid green;
   border-radius: 50%;
   border-style: outset;
   margin-top: 10px;
