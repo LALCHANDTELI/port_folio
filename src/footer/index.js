@@ -15,11 +15,9 @@ export const footer = () => {
             <i class="fa fa-envelope fa-lg"></i>
           </a>
         </li>
-    
-            </li>
         <li>
           <a href="https://github.com/LALCHANDTELI" target="_blank">
-     <i class="fab fa-github fa-lg"></i>
+            <i class="fab fa-github fa-lg"></i>
           </a>
         </li>
          <li>
