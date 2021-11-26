@@ -14,7 +14,7 @@ export const introduction=()=> {
                   <p>
                     hello, there I am a full time WEB DEVELOPER,
                     <br />
-                    I'm pursuing B Tech from SANGAM UNIVERSITY in the computer
+                    I'm pursuing my B Tech from SANGAM UNIVERSITY in the computer
                     science. Right now, I am in the seventh semester.
                     I have three years of experience in web development. I
                     already developed many websites like - SHOPPING SITE, RESTAURANT MANAGEMENT,
