@@ -105,4 +105,4 @@ const App = () => {
   );
 };
 
-exporat default App;
+exporat default App.;
