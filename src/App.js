@@ -105,4 +105,4 @@ const App = () => {
   );
 };
 
-exporat default App.;
+export default App;
